@@ -24,5 +24,6 @@ public class Pruebas
                 return x+1;
             }
         }
-    }    // instance variables - replace the example below with your own
+    }// instance variables - replace the example below with your own
 }
+
