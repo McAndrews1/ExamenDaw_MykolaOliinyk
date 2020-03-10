@@ -21,5 +21,18 @@ public interface Doc
      *                  
      */
     public abstract String obtenerLinea(int x, String file);
+    
+    
+    /**
+     * Devuelve la latitud y altidud de la calle introducida
+     *
+     * @param   dirCalle      Direccion de la calle que se desea saber la latitud y altitud
+     *                  
+     * 
+     * 
+     * @return          Devuelve la latitud y altidud de la calle dada
+     *                  
+     */
+    public abstract String obtenerPosicionGeografica(String dirCalle);
 
 }
